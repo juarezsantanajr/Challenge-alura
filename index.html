@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="shortcut icon" href="starlabs2.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>1º Challenge Turma-5 ONE - 2023</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="starlabs2.png" alt="logo star labs" />
+      <h1>Uma parceria da StarLabs com Alura</h1>
+      <img src="alura.png" alt="logo alura" />
+    </header>
+    <main class="container">
+      <div class="input-container">
+        <div class="input">
+          <textarea
+            id="input-texto"
+            placeholder="Digite o seu texto aqui ..."
+          ></textarea>
+        </div>
+
+        <div class="button">
+          <p>
+            <i class="fa-sharp fa-solid fa-circle-exclamation"></i> Atenção
+            apenas letras minúsculas e sem acentos ou caracteres especiais!
+          </p>
+          <div class="btn-container">
+            <button
+              onclick="criptografar()"
+              type="button"
+              class="btn-criptografar"
+            >
+              <span>Criptografar</span>
+            </button>
+            <button
+              onclick="descriptografar()"
+              type="button"
+              class="btn-descriptografar"
+            >
+              <span>Descriptografar</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="output-container">
+        <div id="output">
+          <img src="starlabslevel600.png" alt="logo star labs level 600" />
+          <h2>
+            Sua mensagem aparecerá <br />
+            aqui!
+          </h2>
+          <span
+            >Digite um texto que deseja criptografar ou <br />descriptografar.
+          </span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="logo-image">
+          <img src="starlabs2.png" alt="Logo StarLabs" />
+        </div>
+        <section class="about">
+          <h2 class="footer__title">Sobre</h2>
+          <p class="footer_about_text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
+            quibusdam dolorum vitae atque doloribus error aperiam corrupti
+            obcaecati quasi mollitia nostrum placeat culpa asperiores dolor
+            nesciunt expedita inventore, rerum eligendi.
+          </p>
+        </section>
+        <address>
+          <h2 class="footer__title">Contato</h2>
+          <ul>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              contato@starlabs.com.br
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              (00) 0000-0000
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              (00) 0 0000-0000
+            </li>
+          </ul>
+          <div class="icon">
+            <a href="https://www.linkedin.com/in/juarezmoraesdesantana/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/juarezsantanajr"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://instagram.com/junioresantanadevelop?igshid=ZDdkNTZiNTM="
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
+          </div>
+        </address>
+        <section class="footer_copyright">
+          <p>&copy; Juarez Moraes de Santana - 2023</p>
+        </section>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/47aa4dc48f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
